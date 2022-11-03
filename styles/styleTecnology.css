@@ -20,12 +20,13 @@ body{
     margin-top: 40px;
   }
   .info-tec{
-  width: 70%;
+  width: 80%;
   display: inline-block;
   position: absolute;
   }
   .info-tec p{
     margin-top:20px;
+    width: 90%;
   }
   .contain{
     margin-left: 8%;
