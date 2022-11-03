@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/styleCrew.css">
+  <link rel="stylesheet" href="./styles/styleGlobal.css">
+
+  <title>Turismo espacial | Equipe</title>
+</head>
+<body onload="upData()" onselectstart="return false">
+  <main>
+    <header>
+      <img class="logo" src="assets/shared/logo.svg" alt="">
+    <ul class="menu">
+      <a href="index.html"><li><strong>00</strong> HOME</li></a>
+      <a href="destination-moon.html"><li><strong>01</strong> DESTINO</li></a>
+      <a href="crew-commander.html"><li class="crewMenu"> <strong>02</strong> EQUIPE TÉCNICA</li></a>
+      <a href="technology-vehicle.html"><li> <strong>03</strong> TECNOLOGIA</li></a>
+    </ul> 
+    <div class="contain-menu-icon">
+      <input type="checkbox"  id="mobile-menu-icon" name="cb" onclick="disparaMenu()">
+      <label for="mobile-menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div> 
+  </header>
+<div class="apr">
+  <h5 class="num">02 </h5>
+  <h5 class="escolha"> CONHEÇA SUA EQUIPE</h5>
+</div>
+  <article>
+    <section class="tecnico">
+
+    <h4 id="func"></h4>
+
+    <h3 id="nome"></h3>
+
+    <p id="resumo"></p>
+
+      <div class="equipe">
+        <button class="radio" id="comandante"></button>
+        <button class="radio" id="especialista"></button>
+        <button class="radio" id="piloto"></button>
+        <button class="radio" id="engenheira"></button>
+
+      </div>
+  </section>
+  <section class="crew">
+    <div class="containImg">
+        <img src="" alt="Douglas Hurley" id="imgTec">
+    </div>
+
+  </section>
+</article>
+
+  </main>
+  <script src="./scripts/crew.js"></script>
+  <script src="./scripts/menuMobile.js"></script>
+  
+</body>
+</html>
