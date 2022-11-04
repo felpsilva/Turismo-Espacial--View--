@@ -276,7 +276,7 @@ label span:nth-child(3){
     }
     header{
         padding-top:0px !important;
-        margin-bottom: 45px !important;
+        margin-bottom: 52px !important;
     }
     p{
         width: 75%;
@@ -318,7 +318,7 @@ label span:nth-child(3){
         top: 0;
         right: 0;
         z-index: 1;
-        background-color: rgba(255, 255, 255, 0.200)
+        background-color: rgba(75,75,75, 0.600) !important;
     }
     header{
         margin-bottom: 0px !important;

@@ -15,7 +15,7 @@
       "png": "./assets/destination/image-mars.png",
       "webp": "./assets/destination/image-mars.webp"
     },
-    "description": "Não se esqueça de levar suas botas de caminhada. Você precisará deles para enfrentar o Monte Olimpo, a montanha planetária mais alta do nosso sistema solar. São duas vezes e meia do tamanho do Everest!",
+    "description": "Não se esqueça de levar suas botas de caminhada. Você precisará deles para enfrentar o Monte Olimpo, a montanha planetária mais alta do nosso sistema solar. São duas vezes e meia o tamanho do Everest!",
     "distance": "225 MIL. KM",
     "travel": "9 MÊSES"
   }
@@ -28,7 +28,7 @@
       "png": "./assets/destination/image-europa.png",
       "webp": "./assets/destination/image-europa.webp"
     },
-    "description": "A menor das quatro luas galileanas que orbitam Júpiter, Europa é uma o sonho do amante de inverno. Com uma superfície gelada, é perfeito para um pouco de patinação no gelo, curling, hóquei ou simples relaxamento em seu confortável cabana invernal.",
+    "description": "A menor das quatro luas galileanas que orbitam Júpiter, Europa é o sonho do amante de inverno. Com uma superfície gelada, é perfeito para um pouco de patinação no gelo, curling, hóquei ou simples relaxamento em sua confortável cabana invernal.",
     "distance": "628 MIL. KM",
     "travel": "3 ANOS"
   }

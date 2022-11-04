@@ -160,6 +160,11 @@ label span:nth-child(3){
       background-image: url(../assets/crew/background-crew-tablet.jpg);
       background-size: cover;
     }
+    main{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
     article {
           display: grid !important;
           justify-items: center;
@@ -195,7 +200,7 @@ label span:nth-child(3){
     }
     header{
       padding-top:0px !important;
-      height: 10%;
+      height: 100px;
       margin-bottom: 7%;
     }
     .menu li{
@@ -225,7 +230,7 @@ label span:nth-child(3){
     top: 0;
     right: 0;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.200)
+    background-color: rgba(75,75,75, 0.600) !important;
   }
   .contain-menu-icon{
     display: block;
@@ -295,18 +300,4 @@ label span:nth-child(3){
     justify-content: center;
   }
 
-}
-
-
-  @media(min-height:1030px){
-    article{
-      height: 78.70%;
-
-  }
-}
-
-  @media(min-height:1050px){
-    article{
-      height:79.50%;
-    }
 }
