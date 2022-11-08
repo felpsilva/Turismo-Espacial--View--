@@ -16,7 +16,6 @@ function getWidth(){
     if(telaL > 650){
         menu.style.display = 'flex'
         menu.style.flexDirection = 'row';
-        console.log(telaL)
     }else{
         if(checkbox.checked && telaL < 650){
             menu.style.display = 'flex';
