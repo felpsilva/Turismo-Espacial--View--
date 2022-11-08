@@ -3,8 +3,12 @@ let checkbox = document.querySelector('input[type="checkbox"]');
 
 function disparaMenu(){
 if(checkbox.checked){
+    menu.style.animation =''
+    setTimeout(() => menu.style.animation = 'opacidade 0.5s ease',5)
     menu.style.display = 'flex';
     menu.style.flexDirection = 'column';
+
+
 
 }else{
     menu.style.display = 'none';

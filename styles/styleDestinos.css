@@ -206,14 +206,7 @@ label span:nth-child(3){
     top: 10px;
 }
 
-.animation{
-    animation: slide 0.5s ease-out ;
-}
 
-@keyframes slide{
-        0%   { margin-left: 10vh; }
-        100% { margin-left: 0; }
-}
 .animationDestinosTable{
     animation: slide 1s cubic-bezier(0.42, 0, 0.44, 1.26);
 }
@@ -221,6 +214,16 @@ label span:nth-child(3){
 @keyframes slideGrid{
     0%   { margin: 0px 50px 0px 0px}
     100% { margin:0px }
+}
+
+.animationMenu{
+    animation: opacidade 0.5s cubic-bezier(0.42, 0, 0.44, 1.26);
+}
+
+@keyframes opacidade{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
 }
 
 @media(max-width:1370px){
@@ -347,7 +350,7 @@ label span:nth-child(3){
         height: 235px;
     }
     .contain-planet{
-        width: 100%;
+        width: 80%;
     }
     .info{
         width: 100%;
