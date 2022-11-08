@@ -138,11 +138,10 @@ section h3{
     margin-right: 20px;
   }
 }
-/* @media(min-width:990px){
-  #tecnoImg{
-    background-image: url('../assets/technology/image-launch-vehicle-landscape.jpg');
-  }
-} */
+@keyframes opacidade{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
 @media (min-width:990px){
   .tecnology img{
     width: 415px;
