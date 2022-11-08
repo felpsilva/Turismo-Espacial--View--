@@ -91,6 +91,13 @@ function sizeOfThings() {
 	function selectTec() {
 		comandante.addEventListener('click', () => {
 			imgTec.src = equipe1.images.png;
+			if (telaL > 650) {
+				imgTec.style.width = '336px';
+				imgTec.style.height = '420px';
+			} else {
+				imgTec.style.height = '220px';
+				imgTec.style.width = '180px';
+			}
 			imgTec.style.animation =''
 			setTimeout(() => imgTec.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
 			let role = equipe1.role;
@@ -105,6 +112,13 @@ function sizeOfThings() {
 		});
 		especialista.addEventListener('click', () => {
 			imgTec.src = equipe2.images.png;
+			if (telaL > 650) {
+				imgTec.style.width = '295px';
+				imgTec.style.height = '420px';
+			} else {
+				imgTec.style.height = '220px';
+				imgTec.style.width = '145px';
+			}
 			imgTec.style.animation =''
 			setTimeout(() => imgTec.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
 			let role = equipe2.role;
@@ -118,6 +132,13 @@ function sizeOfThings() {
 		});
 		piloto.addEventListener('click', () => {
 			imgTec.src = equipe3.images.png;
+			if (telaL > 650) {
+				imgTec.style.width = '345px';
+				imgTec.style.height = '375px';
+			} else {
+				imgTec.style.height = '220px';
+				imgTec.style.width = '195px';
+			}
 			imgTec.style.animation =''
 			setTimeout(() => imgTec.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
 			let role = equipe3.role;
@@ -131,6 +152,13 @@ function sizeOfThings() {
 		});
 		engenheira.addEventListener('click', () => {
 			imgTec.src = equipe4.images.png;
+			if (telaL > 650) {
+				imgTec.style.width = '365px';
+				imgTec.style.height = '375px';
+			} else {
+				imgTec.style.height = '220px';
+				imgTec.style.width = '195px';
+			}
 			imgTec.style.animation =''
 			setTimeout(() => imgTec.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
 			let role = equipe4.role;
@@ -210,6 +238,8 @@ window.addEventListener('resize', function () {
 
 function upData() {
 	imgTec.src = equipe1.images.png;
+	imgTec.style.animation =''
+	setTimeout(() => imgTec.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
 	let role = equipe1.role;
 	let name = equipe1.name;
 	let bio = equipe1.bio;
