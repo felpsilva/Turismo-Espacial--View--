@@ -13,7 +13,7 @@ if(checkbox.checked){
 }else{
     menu.style.animation =''
     menu.style.animation = 'opacidadeOff 1s ease'  
-    setTimeOut(() => menu.style.display = 'none',5)
+    setTimeout(()=>menu.style.display = 'none',500)
 }
 } 
 
