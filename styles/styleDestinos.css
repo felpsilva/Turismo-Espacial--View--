@@ -220,9 +220,13 @@ label span:nth-child(3){
     animation: opacidade 0.5s cubic-bezier(0.42, 0, 0.44, 1.26);
 }
 
-@keyframes opacidade{
+@keyframes opacidadeOn{
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+@keyframes opacidadeOff{
+    0% {opacity: 1;}
+    100% {opacity: 0;}
 }
 
 @media(max-width:1370px){

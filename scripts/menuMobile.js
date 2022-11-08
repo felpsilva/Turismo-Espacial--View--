@@ -4,14 +4,16 @@ let checkbox = document.querySelector('input[type="checkbox"]');
 function disparaMenu(){
 if(checkbox.checked){
     menu.style.animation =''
-    setTimeout(() => menu.style.animation = 'opacidade 0.5s ease',5)
+    menu.style.animation = 'opacidadeOn 1s ease'
     menu.style.display = 'flex';
     menu.style.flexDirection = 'column';
 
 
 
 }else{
-    menu.style.display = 'none';
+    menu.style.animation =''
+    menu.style.animation = 'opacidadeOff 1s ease'  
+    setTimeOut(() => menu.style.display = 'none',5)
 }
 } 
 
