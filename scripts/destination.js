@@ -165,7 +165,8 @@ function selectTec(){
 
   function upData(){
     imgDestino.src = destino1.images.png;
-    
+    containP.style.animation =''
+    setTimeout(() => containP.style.animation = 'slideGrid 1s cubic-bezier(0.42, 0, 0.44, 1.26)',5)
     let name = destino1.name;
     let description = destino1.description;
     let distance = destino1.distance;
