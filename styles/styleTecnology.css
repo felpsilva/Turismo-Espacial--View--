@@ -26,16 +26,17 @@ body{
   }
   .info-tec p{
     margin-top:20px;
-    width: 90%;
+    width: 75%;
   }
   .contain{
     margin-left: 8%;
     padding-right: 0%;
-    width: 50%;
+    width: 60%;
   }
 
   .tecnology{
     position: relative;
+    width: 40%;
   }
   .tecnology img{
     position: absolute;
@@ -130,9 +131,15 @@ label span:nth-child(3){
     transition:all 300ms ease-in-out;
     cursor:pointer;
 }
-section h3{
-  font-size: 50px;
+
+.info-tec h3{
+    font-family: bellefair;
+    font-size: 56px;
+    width: 100%;
+    padding: 15px 0px 0px 0px;
+    color:#fff
 }
+
 @media (max-width:1025px){
   .buttons{
     margin-right: 20px;
@@ -271,6 +278,9 @@ section h3{
   .info-tec h3 {
     font-size: 25px;
     padding: 10px 0px 15px 0px;
+  }
+  .apr h1{
+    font-size: 20px;
   }
   .apr {
     margin-bottom: 40px;

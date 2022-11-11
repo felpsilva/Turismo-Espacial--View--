@@ -348,6 +348,9 @@ label span:nth-child(3){
         margin-left: 0;
         text-align: center;
     }
+    .apr h1{
+        font-size: 20px;
+    }
     .lua{
         width: 235px;
         height: 235px;
@@ -374,14 +377,12 @@ label span:nth-child(3){
     .distancia{
         margin-right: 0;
     }
-    .distancia h1{
+    .distancia h4, .subtitulo h4{
         margin-bottom: 5%;
+        font-size: 28px;
     }
     .tempo{
         margin-left: 0;
-    }
-    .subtitulo h1{
-        margin-bottom: 5%;
     }
     #destinoNome{
         font-size: 65px;
