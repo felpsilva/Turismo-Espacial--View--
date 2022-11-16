@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
+
 @font-face{
     font-family: barlow regular;
     src: url('../fonts/BarlowCondensed-Regular.ttf');
@@ -11,6 +12,7 @@
     font-family: bellefair;
     src: url('../fonts/Bellefair-Regular.otf');
 }
+
 main{
     height: 100vh;
 
@@ -46,8 +48,6 @@ header{
     list-style-type: none;
     padding-right: 10%;
     padding-left: 8%;
-
-    
 
 }
 .menu li{
@@ -124,13 +124,3 @@ a{
     color:inherit
 }
 
-/* @media(max-width:930){
-    .menu li{
-        margin-left: 20px !important;
-        margin-right: 20px !important;
-    }
-    .menu{
-        padding-left: 4% !important;
-        padding-right: 6% !important;
-    }
-} */

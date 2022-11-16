@@ -173,7 +173,7 @@ function sizeOfThings() {
 	}
 
 
-	function resposividade() {
+	function resposividadeImg() {
 		if (controler == 0) {
 			if (telaL > 650) {
 				imgTec.style.width = '336px';
@@ -225,7 +225,7 @@ function sizeOfThings() {
 		}
 	}
 
-	resposividade()
+	resposividadeImg()
 
 
 }
@@ -248,5 +248,3 @@ function upData() {
 	nome.innerHTML = name;
 	resumo.innerHTML = bio;
 }
-
-  //criar classes para atualizar a imagem do tecnico de acordo com o tamanho da tela  
