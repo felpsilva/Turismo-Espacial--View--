@@ -8,8 +8,6 @@ if(checkbox.checked){
     menu.style.display = 'flex';
     menu.style.flexDirection = 'column';
 
-
-
 }else{
     menu.style.animation =''
     menu.style.animation = 'opacidadeOff 1s ease'  

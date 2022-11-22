@@ -51,8 +51,8 @@ let marte = document.querySelector('#marte');
 let europa = document.querySelector('#europa'); 
 let titan = document.querySelector('#titan');
 
-selectTec()
-selectTecStyle()
+selectDestino()
+selectDestinoStyle()
 
 let imgDestino = document.querySelector('#destinoImg')
 let destinoNome = document.querySelector('#destinoNome')
@@ -62,7 +62,7 @@ let tempoViagem = document.querySelector('#tempoViagem')
 let containP = document.querySelector('.contain-planet')
 
 
-function selectTecStyle(){
+function selectDestinoStyle(){
   lua.addEventListener('click', ()=>{
     lua.classList.add('borda');
     marte.classList.remove('borda');
@@ -96,7 +96,7 @@ function selectTecStyle(){
 }
 
 
-function selectTec(){
+function selectDestino(){
     lua.addEventListener('click', () => {
         imgDestino.src = destino1.images.png;
         containP.style.animation =''

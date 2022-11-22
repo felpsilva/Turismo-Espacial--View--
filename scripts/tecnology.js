@@ -113,7 +113,7 @@ function sizeOfThings() {
       controler = 3
     });
 
-    function resposividade() {
+    function resposividadeImg() {
       if (controler == 0) {
         if (telaL < 990) {
           tecnologiaImg.src = tecnologia1.images.portrait;
@@ -147,7 +147,7 @@ function sizeOfThings() {
       }
     }
 
-    resposividade()
+    resposividadeImg()
 
   }
 
