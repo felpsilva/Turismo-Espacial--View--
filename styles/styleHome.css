@@ -11,15 +11,57 @@ article {
 section {
     width: 50%;
 }
+header::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background: #767676a6;
+    order: 2;
+    margin-right: -4%;
+
+}
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 120px;
+}
+.explore a{
+    letter-spacing: 2.75px;
+    font-size: 28px;
+    font-weight: normal;
+    padding: 84px 24px 84px 24px;
+    font-family: bellefair;
 }
 
 .explore {
-    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 100px;
+    border: none;
+    transition: box-shadow 0.5s ease-in-out;
 }
+.home{
+    border-bottom: 2px solid #fff;
+    width: 74px;
+  }
+  .destino{
+      width: 94px;
+  }
+  .crewMenu{
+      width: 155px;
+  }
+  .tecnologia{
+      width: 125px;
+  }
 
 .escolha {
     letter-spacing: 0.75px;
@@ -67,15 +109,6 @@ h5 {
     font-family: bellefair;
 }
 
-.explore {
-    width: 200px;
-    height: 200px;
-    background-color: #fff;
-    border-radius: 100px;
-    border: none;
-    transition: box-shadow 0.5s ease-in-out;
-
-}
 
 .explore:hover {
     box-sizing: content-box;
@@ -94,6 +127,7 @@ h5 {
 
 .menu {
     display: flex;
+    order: 3
 }
 
 .contain-menu-icon {
@@ -204,6 +238,9 @@ label span:nth-child(3) {
         width: 80vw;
         scale: 0.9;
     }
+    header::after{
+        display: none;
+    }
 
     .s2 {
         margin-left: 0 !important;
@@ -239,6 +276,19 @@ label span:nth-child(3) {
     }
     .menu li{
         margin: 38px 20px 0px 20px !important;
+        text-align: center;
+      }
+      .home{
+        width: 57px;
+      }
+      .destino{
+          width: 70px;
+      }
+      .crewMenu{
+        width: 122px;
+      }
+      .tecnologia{
+          width: 95px;
       }
     
 
@@ -288,6 +338,9 @@ label span:nth-child(3) {
         margin-bottom: 20% !important;
         width: 95%;
     }
+    .logo{
+        margin: 26px 0;
+    }
 
     article {
         padding-top: 0px;
@@ -297,5 +350,9 @@ label span:nth-child(3) {
     .explore {
         height: 150px;
         width: 150px;
+    }
+    .explore a{
+        font-size: 20px;
+        padding: 65px 24px 65px 24px;
     }
 }

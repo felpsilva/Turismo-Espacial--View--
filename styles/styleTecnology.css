@@ -6,6 +6,9 @@ body {
 header {
   height: 21%;
   margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 article {
@@ -16,6 +19,30 @@ article {
 .apr {
 
   margin-left: 10%;
+}
+header::after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background: #767676a6;
+  order: 2;
+  margin-right: -4%;
+
+}
+
+.home{
+  width: 74px;
+}
+.destino{
+    width: 94px;
+}
+.crewMenu{
+    width: 155px;
+}
+.tecnologia{
+    width: 125px;
 }
 
 .container {
@@ -52,6 +79,7 @@ article {
 
 .menu {
   display: flex;
+  order: 3
 }
 
 .contain-menu-icon {
@@ -233,6 +261,21 @@ label span:nth-child(3) {
     height: 66%;
     justify-content: center;
   }
+  header::after{
+    display: none;
+  }
+  .home{
+    width: 57px;
+  }
+  .destino{
+      width: 70px;
+  }
+  .crewMenu{
+    width: 122px;
+  }
+  .tecnologia{
+      width: 95px;
+  }
 
   .tecnology img {
     position: inherit;
@@ -329,6 +372,9 @@ label span:nth-child(3) {
   .contain-menu-icon {
     display: block;
   }
+  .logo{
+    margin: 26px 0;
+}
 
   .buttons {
     width: 200px;
