@@ -1,127 +1,148 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-@font-face{
+@font-face {
     font-family: barlow regular;
     src: url('../fonts/BarlowCondensed-Regular.ttf');
 }
-@font-face{
+
+@font-face {
     font-family: bellefair;
     src: url('../fonts/Bellefair-Regular.otf');
 }
 
-main{
+main {
     height: 100vh;
 
 }
 
-body{
-    color:#fff;
+body {
+    color: #fff;
     background-repeat: no-repeat;
     height: 100vh;
 
 }
-nav{
+
+nav {
     display: contents;
 }
-article{
+
+article {
     width: 100%;
-    display:flex;
+    display: flex;
 }
 
-section{
+section {
     width: 50%;
 }
 
-header{
+header {
     position: relative;
-    padding-top:40px;
+    padding-top: 40px;
     width: 100%;
-    padding-left: 40px; 
+    padding-left: 40px;
 }
-.menu{
+
+.menu {
     background: #6b6b6b29;
     backdrop-filter: blur(25px);
-    float:right;
+    float: right;
     list-style-type: none;
     padding-right: 8%;
     padding-left: 6%;
 
 }
-.menu li{
+
+.menu li {
     font-family: barlow regular;
     float: left;
     padding-bottom: 38px;
     margin: 38px 25px 0px 25px;
-    letter-spacing:2.27px;
+    letter-spacing: 2.27px;
 }
-.menu li:hover{
-    border-bottom: 2px solid #85868b;    
+
+.menu li:hover {
+    border-bottom: 2px solid #85868b;
 
 }
-.logo{
+
+.logo {
     margin-right: 50px;
 }
-ul strong{
-    padding-right:10px;
+
+ul strong {
+    padding-right: 10px;
 }
-.num{
-    color:#485159;
+
+.num {
+    color: #485159;
     font-weight: bold;
     display: inline-block;
     margin-right: 10px;
 }
+
 .escolha {
     letter-spacing: 0.75px;
     color: #fff;
     display: inline-block;
-  }
+}
 
-h1{
-    color:#d0d6f9;
+.menu li a {
+    padding: 38px 0px
+}
+
+.menu li a :active {
+    background: #6b6b6b29;
+}
+
+h1 {
+    color: #d0d6f9;
     font-family: barlow regular;
-    letter-spacing:2.75px;
+    letter-spacing: 2.75px;
     font-size: 28px;
     font-weight: normal;
 }
 
-h2{
+h2 {
     font-family: bellefair;
     letter-spacing: 0px;
     font-size: 100px;
     font-weight: normal;
 }
-h3{
+
+h3 {
     font-family: barlow regular;
     font-size: 12px;
     font-weight: normal;
-    color:#d0d6f9;
+    color: #d0d6f9;
 }
-h4{
-    color:#fff;
+
+h4 {
+    color: #fff;
     font-family: bellefair;
     letter-spacing: 1px;
     font-size: 32px;
     font-weight: normal;
 }
-h5{
-    color:#d0d6f9;
+
+h5 {
+    color: #d0d6f9;
     font-family: barlow regular;
-    letter-spacing:2.75px;
+    letter-spacing: 2.75px;
     font-size: 28px;
     font-weight: normal;
 }
-p{
+
+p {
     font-family: barlow regular;
-    color:#d0d6f9;
+    color: #d0d6f9;
     line-height: 28px;
 }
 
-a{
+a {
     text-decoration: none;
-    color:inherit
+    color: inherit
 }
-
