@@ -11,6 +11,7 @@ article {
 section {
     width: 50%;
 }
+
 header::after {
     content: "";
     display: block;
@@ -354,5 +355,6 @@ label span:nth-child(3) {
     .explore a{
         font-size: 20px;
         padding: 65px 24px 65px 24px;
+        color: #000;
     }
 }
