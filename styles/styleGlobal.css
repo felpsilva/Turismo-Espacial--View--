@@ -49,10 +49,12 @@ header {
 .menu {
     background: #6b6b6b29;
     backdrop-filter: blur(25px);
+    -webkit-backdrop-filter:blur(25px);
     float: right;
     list-style-type: none;
     padding-right: 8%;
     padding-left: 6%;
+
 
 }
 
