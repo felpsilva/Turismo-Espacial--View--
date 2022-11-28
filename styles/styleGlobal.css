@@ -47,7 +47,7 @@ header {
 }
 
 .menu {
-    background: #6b6b6b29;
+    /* background: #6b6b6b29; */
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter:blur(25px);
     float: right;
