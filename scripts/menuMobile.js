@@ -3,14 +3,14 @@ let checkbox = document.querySelector('input[type="checkbox"]');
 
 function disparaMenu(){
 if(checkbox.checked){
-    menu.style.animation =''
-    menu.style.animation = 'opacidadeOn 1s ease'
+    menu.style.webkitAnimation =''
+    menu.style.webkitAnimation = 'opacidadeOn 1s ease'
     menu.style.display = 'flex';
     menu.style.flexDirection = 'column';
 
 }else{
-    menu.style.animation =''
-    menu.style.animation = 'opacidadeOff 1s ease'  
+    menu.style.webkitAnimation =''
+    menu.style.webkitAnimation = 'opacidadeOff 1s ease'  
     setTimeout(()=>menu.style.display = 'none',500)
 }
 } 
