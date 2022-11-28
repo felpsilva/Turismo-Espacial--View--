@@ -194,21 +194,24 @@ label span:nth-child(3) {
 
 @-webkit-keyframes opacidadeOn {
     0% {
-        opacity: 0;
+        -webkit-opacity: 0;
+
     }
 
     100% {
-        opacity: 1;
+        -webkit-opacity: 1;
     }
 }
 
 @-webkit-keyframes opacidadeOff {
     0% {
-        opacity: 1;
+        -webkit-opacity: 1;
+
     }
 
     100% {
-        opacity: 0;
+        -webkit-opacity: 0;
+
     }
 }
 
