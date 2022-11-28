@@ -204,11 +204,11 @@ label span:nth-child(3) {
 
 @keyframes opacidadeOff {
     0% {
-        opacity: 1;
+        display: flex;
     }
 
     100% {
-        opacity: 0;
+        display: none;
     }
 }
 
